@@ -7,7 +7,6 @@ using namespace std;
 int main()
 {
     int row,col;
-    int i=11;
 
     cin>>row>>col;
 
@@ -15,21 +14,10 @@ int main()
 
         for(int j=0; j<=col; j++){
 
-            if(i==0||j==0||i==row||j==col){
-
-                cout<<"*"<<" ";
-
-            }
-
-            else{
-
-                cout<<"  ";
-            }
-
-            
+            cout<<"This is internal loop"<<endl;
         }
 
-        cout<<endl;
+        cout<<"This is external loop"<<endl;
     }
     
      return 0;
