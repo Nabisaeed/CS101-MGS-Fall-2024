@@ -1,20 +1,14 @@
 // C++ Program starts here
 #include <iostream>
+#include <cmath>
 using namespace std;
     
     
 int main()
 {
-    int a=0;
+    int a=16;
 
-    while(a<=5){
-
-        cout<<a<<endl;
-
-        a++;
-    }
-
-    
+    cout<<sqrt(a)<<endl;
     
      return 0;
     

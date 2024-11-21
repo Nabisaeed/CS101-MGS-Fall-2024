@@ -5,16 +5,14 @@ using namespace std;
     
 int main()
 {
-    int a=0;
 
-    while(a<=5){
+    int grade;
 
-        cout<<a<<endl;
+    cin>>grade;
 
-        a++;
-    }
+string s1= (grade>=60)? "Passed": "Failed";
 
-    
+ cout<<s1<<endl;
     
      return 0;
     
