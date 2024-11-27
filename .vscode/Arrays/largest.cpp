@@ -8,7 +8,7 @@ using namespace std;
 
         for(int i=0; i<=size-1; i++){
 
-            if(z[i]>largest){
+            if(z[i]> largest){
 
                 largest=z[i];
             }
